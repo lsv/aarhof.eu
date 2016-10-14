@@ -1,5 +1,5 @@
 export default {
     getWishes (http) {
-        return http.get('https://cdn.rawgit.com/lsv/wishlist/master/wishes.json');
+        return http.get('https://cdn.rawgit.com/lsv/aarhof.eu/master/wishes.json');
     }
 }
