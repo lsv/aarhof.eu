@@ -1,0 +1,37 @@
+[
+  {
+    "type": "singlelist",
+    "header": "Tøj",
+    "items": [
+      "Bjørn Borg boksershorts (XXL)"
+    ]
+  },
+  {
+    "type": "linklist",
+    "header": "Accesories",
+    "items": [
+      {
+        "title": "Razorpit",
+        "link": "https://www.coolshop.dk/produkt/razorpit/A7X283"
+      },
+      {
+        "title": "Powerbank til telefon",
+        "link": "http://www.mytrendyphone.dk/shop/xiaomi-mi-usb-184204p.html"
+      }
+    ]
+  },
+  {
+    "type": "singlelist",
+    "header": "Diverse",
+    "items": [
+      "Gulvmoppe med vand (set i diverse byggemarkeder)", "Støvsuger poser (Miele)"
+    ]
+  },
+  {
+    "type": "singlelist",
+    "header": "Gavekort",
+    "items": [
+      "til kontorstol"
+    ]
+  }
+]
