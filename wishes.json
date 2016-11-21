@@ -1,12 +1,5 @@
 [
   {
-    "type": "singlelist",
-    "header": "Tøj",
-    "items": [
-      "Bjørn Borg boksershorts (XXL)"
-    ]
-  },
-  {
     "type": "linklist",
     "header": "Accesories",
     "items": [
@@ -24,9 +17,8 @@
     "type": "singlelist",
     "header": "Diverse",
     "items": [
-      "Gulvmoppe med vand (set i diverse byggemarkeder)",
       "Støvsuger poser (Miele)",
-      "Håndmixer"
+      "Elektronisk stege termometer"
     ]
   },
   {
