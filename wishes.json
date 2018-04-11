@@ -1,27 +1,3 @@
 [
-  {
-    "type": "linklist",
-    "header": "Accesories",
-    "items": [
-      {
-        "title": "Razorpit",
-        "link": "https://www.coolshop.dk/produkt/razorpit/A7X283"
-      }
-    ]
-  },
-  {
-    "type": "singlelist",
-    "header": "Diverse",
-    "items": [
-      "Støvsuger poser (Miele)",
-      "Elektronisk stege termometer"
-    ]
-  },
-  {
-    "type": "singlelist",
-    "header": "Gavekort",
-    "items": [
-      "til kontorstol"
-    ]
-  }
+  
 ]
