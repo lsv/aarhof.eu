@@ -3,7 +3,10 @@
     <header class="container container-md mx-auto">
       <Menubar :model="items">
         <template #item="{ item }">
-          <nuxt-link :to="item.route">
+          <nuxt-link
+            :to="item.route"
+            prefetch-on="interaction"
+          >
             <Button
               :icon="item.icon"
               :label="item.label"
@@ -13,17 +16,32 @@
         </template>
       </Menubar>
     </header>
-    <main class="container container-md mx-auto">
-      <slot />
+    <main class="container container-md mx-auto mt-5">
+      <Card>
+        <template #content>
+          <slot />
+        </template>
+      </Card>
     </main>
-    <footer class="container container-md mx-auto">
-      Footer
+    <footer class="container container-md mx-auto mt-5">
+      <Card>
+        <template #content>
+          <article class="italic text-xs text-right text-gray-500">
+            &copy; Martin Aarhof
+          </article>
+        </template>
+      </Card>
     </footer>
   </div>
 </template>
 
 <script setup lang="ts">
-const items = ref([
+type MenuItem = {
+  label: string
+  icon: string
+  route: string
+}
+const items = ref<MenuItem[]>([
   {
     label: 'Home',
     icon: 'pi pi-home',
@@ -39,10 +57,10 @@ const items = ref([
     icon: 'pi pi-asterisk',
     route: '/wishlist',
   },
-  {
-    label: 'Blog',
-    icon: 'pi pi-align-left',
-    route: '/blog',
-  },
+  // {
+  //   label: 'Blog',
+  //   icon: 'pi pi-align-left',
+  //   route: '/blog',
+  // },
 ])
 </script>

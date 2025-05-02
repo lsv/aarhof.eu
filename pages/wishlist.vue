@@ -1,7 +1,6 @@
 <template>
   <article>
-    <h1>Wishlist</h1>
-
+    <header-component>Wishlist</header-component>
     <div
       v-for="item in items"
       :key="item.header"
@@ -12,6 +11,8 @@
 </template>
 
 <script setup lang="ts">
+import HeaderComponent from '~/components/HeaderComponent.vue'
+
 const items = ref([])
 
 onMounted(async () => {
