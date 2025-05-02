@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'primeicons/primeicons.css';
+
+.router-link-active > button {
+  background-color: var(--p-button-text-primary-hover-background);
+  color: var(--p-button-text-primary-color);
+}
